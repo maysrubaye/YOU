@@ -448,7 +448,7 @@ h6 {
   text-decoration: none;
 }
 
-/*.mobile-nav .drop-down > a:after {
+.mobile-nav .drop-down > a:after {
   content: "\f078";
   font-family: FontAwesome;
   padding-left: 10px;
@@ -471,7 +471,7 @@ h6 {
 
 .mobile-nav .drop-down li {
   padding-left: 20px;
-}*/
+}
 
 .mobile-nav-toggle {
   position: fixed;
@@ -500,7 +500,7 @@ h6 {
   top: 0;
   left: 0;
   position: fixed;
-  background: rgba(40, 38, 70, 0.8);
+  background: rgba(0, 0, 0, 0.3);
   overflow: hidden;
   display: none;
 }
